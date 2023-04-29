@@ -8,7 +8,6 @@ header{
     right: 0;
     top: 0;
     z-index: 1000;
-    /* width: 100%; */
     padding: 35px 9.5%;
     display: flex;
     align-items: center;
@@ -47,4 +46,24 @@ header{
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+
+.section1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.section1_img img{
+    height: auto;
+    width: 600px;
+}
+
+.section1_info{
+    background-color: #02041b;
+    font-family: 'Maven Pro', sans-serif;
+    color: #f1d015;
+    height: auto;
+    width: 450px;
 }
