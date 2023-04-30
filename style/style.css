@@ -50,20 +50,78 @@ header{
 
 .section1{
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     padding: 0 10%;
 }
 
 .section1_img img{
     height: auto;
-    width: 600px;
+    width: 650px;
 }
 
 .section1_info{
     background-color: #02041b;
     font-family: 'Maven Pro', sans-serif;
-    color: #f1d015;
-    height: auto;
-    width: 450px;
+    height: 440px;
+    width: 380px;
 }
+
+.section1_info h1{
+    color: #e2d274ec;
+    padding: 0 10%;
+}
+
+.section1_info h3{
+    color: white;
+    padding: 0 10%;
+}
+
+.section1_info h4{
+    color: white;
+    padding: 0 10%;
+    font-weight: 100;
+}
+
+.section1_info hr{
+    color: white;
+    width: 80%;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section3{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.section3 h4{
+    padding: 0%;
+    margin-top: 40px;
+    font-weight: 200;
+}
+
+.section3 button{
+    background-color: #e05c28;
+    color: whitesmoke;
+    padding: 3% 10%;
+    border: transparent;
+}
+
+.section_foot{
+    font-family: 'Maven Pro', sans-serif;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+/* .section_foot card1{
+    display: flex;
+    justify-content: space-between;
+} */
