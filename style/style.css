@@ -129,51 +129,65 @@ header{
     background-color: hsl(5, 86%, 48%);
 }
 
+/* CARDS SECTION */
+
 .section_foot{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2% 10%;
 }
 
 .card1{
     display: flex;
+    align-items:last baseline;
     justify-content: space-between;
     gap: 20px;
 }
 
 .card1 img{
     width: 100px;
+    height:130px;
 }
 
 .card1 h1{
     color: grey;
-    font-weight: 700;
+    font-size: 1.9rem;
+    opacity: 55%;
 }
 
 .card2{
     display: flex;
+    align-items: last baseline;
     justify-content: space-between;
     gap: 20px;
 }
 
 .card2 img{
     width: 100px;
+    height:130px;
 }
 
-.card2 h0{
+.card2 h1{
     color: grey;
+    font-size: 1.9rem;
+    opacity: 55%;
 }
 
 .card3{
     display: flex;
+    align-items:last baseline;
     justify-content: space-between;
     gap: 20px;
 }
 
 .card3 img{
     width: 100px;
+    height: 130px;
 }
 
 .card3 h1{
     color: grey;
+    font-size: 1.9rem;
+    opacity: 55%;
 }
