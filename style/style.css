@@ -67,7 +67,7 @@ header{
     display: flex;
     justify-content:first baseline;
     gap: 20px;
-    padding: 0 10%;
+    padding: 0 9.5%;
 }
 
 .section1_img img{
@@ -77,9 +77,9 @@ header{
 
 .section1_info{
     background-color: #02041b;
-    height: auto;
-    /* max-height: 490px; */
-    width: 360px;
+    /* height: auto; */
+    max-height: 490px;
+    width: 860px;
 }
 
 .section1_info h1{
@@ -96,7 +96,7 @@ header{
     color: white;
     padding: 0 10%;
     font-weight: 100;
-    font-size:15px;
+    font-size: 15px;
 }
 
 .section1_info hr{
@@ -107,7 +107,6 @@ header{
 .section2{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .section2 h1{
@@ -117,13 +116,15 @@ header{
 
 .section3 h4{
     /* padding-top: 16%; */
+    padding: 4% 12%;
     font-weight: 200;
 }
 
 .section3 button{
     background-color: hsl(5, 85%, 63%);
     color: whitesmoke;
-    padding: 3% 10%;
+    padding: 2% 5%;
+    margin-left: 65px;
     border: transparent;
     cursor: pointer;
     font-weight: 600;
@@ -199,6 +200,7 @@ header{
 @media (max-width: 1030px){
     #menu-icon{
         display: block;
+        color: #02041b;
     }
     .navlist{
         position:absolute;
@@ -206,7 +208,7 @@ header{
         right:-100%;
         width:300px;
         height:40vh;
-        background-color: transparent;
+        background: hsl(5, 85%, 63%);
         display:flex; 
         align-items:center;
         flex-direction: column;
@@ -222,24 +224,18 @@ header{
         right: 0;
     }
     .section1{
-        margin-top: 70px;
-        display: flex;
-        justify-content:first baseline;
         flex-direction: column;
-        gap: 20px;
-        padding: 0 10%;
     }
     .section2{
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        gap: 20px;
     }
     .section_foot{
-        display: flex;
-        align-items: center;
         flex-direction: column;
-        justify-content: space-between;
-        padding: 0 10%;
+    }
+    .section1_info{
+        width:400px;
+    }
+    .section3 h4{
+        padding: 4% 5%;
     }
 }
